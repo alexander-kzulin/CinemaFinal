@@ -28,13 +28,13 @@ public class FilmsEditing {
         int x = JOptionPane.showConfirmDialog(null, message, "Edit", JOptionPane.OK_CANCEL_OPTION);
         FilmRepositoryImpl filmRepository = new FilmRepositoryImpl();
 
-        if (x == 1) {
+        if (x == 0) {
             int filmId = Integer.parseInt(filmIdToInt.getText());
             int ticketPrice = Integer.parseInt(ticketPriceToInt.getText());
             Film film = new Film(filmId, filmName.getText(), sessionDate.getText(), sessionTime.getText(), ticketPrice);
             filmRepository.update(film);
             JTableFilms.JTableFilm();
-        } else if (x == 2) {
+        } else if (x == 1) {
             managerMenuStart();
 
         } else {

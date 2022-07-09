@@ -20,7 +20,7 @@ public class UserTicketController {
         if (y == 0) {
             Object[] buttonTickets = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
-            ImageIcon cinemaHall = new ImageIcon("pictures/cinema_hall_medium.png");
+            ImageIcon cinemaHall = new ImageIcon("cinema_hall_medium.png");
 
             int n = JOptionPane.showOptionDialog(
                     null, null, "  --- TERMINATOR 4 ---  --- SESSION TIME: 20:00 ---   --- CHOOSE A PLACE ---",
@@ -43,7 +43,7 @@ public class UserTicketController {
         } else if (y == 1) {
             Object[] buttonTickets = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
-            ImageIcon cinemaHall = new ImageIcon("pictures/cinema_hall_medium.png");
+            ImageIcon cinemaHall = new ImageIcon("cinema_hall_medium.png");
 
             int n = JOptionPane.showOptionDialog(
                     null, null, "  --- Harry Potter 6 ---  --- SESSION TIME: 18:00 ---   --- CHOOSE A PLACE ---",
@@ -77,7 +77,7 @@ public class UserTicketController {
         if (y == YES_OPTION) {
             Object[] buttonTickets = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
-            ImageIcon cinemaHall = new ImageIcon("pictures/cinema_hall_medium.png");
+            ImageIcon cinemaHall = new ImageIcon("cinema_hall_medium.png");
 
             int n = JOptionPane.showOptionDialog(null, null, "  --- TERMINATOR 4 ---  --- SESSION TIME: 20:00 ---   --- CHOOSE A PLACE ---",
                     JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,
@@ -91,7 +91,7 @@ public class UserTicketController {
         } else if (y == NO_OPTION) {
             Object[] buttonTickets = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18};
 
-            ImageIcon cinemaHall = new ImageIcon("pictures/cinema_hall_medium.png");
+            ImageIcon cinemaHall = new ImageIcon("cinema_hall_medium.png");
 
             int n = JOptionPane.showOptionDialog(
                     null, null, "  --- Harry Potter 6 ---  --- SESSION TIME: 20:00 ---   --- CHOOSE A PLACE ---",

@@ -22,7 +22,7 @@ public class MainMenuController extends JFrame {
     public static void MainMenuStart() {
         try {
             MainMenuController frame = new MainMenuController();
-            BufferedImage bufferedImage = ImageIO.read(new File("pictures/Belarus_medium.png"));
+            BufferedImage bufferedImage = ImageIO.read(new File("Cinema/pictures/Belarus_medium.png"));
             Image image = bufferedImage.getScaledInstance(500, 250, Image.SCALE_DEFAULT);
             ImageIcon icon = new ImageIcon(image);
             Object[] button = {"Continue", "Exit"};
